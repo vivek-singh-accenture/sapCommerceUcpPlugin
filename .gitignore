@@ -1,6 +1,7 @@
 # Whitelist approach: ignore everything (SAP platform binaries, installer, licenses, data, logs)
 /*
 !/.gitignore
+!/README.md
 !/hybris/
 /hybris/*
 !/hybris/bin/
@@ -9,6 +10,7 @@
 !/hybris/config/
 /hybris/config/*
 !/hybris/config/localextensions.xml
+!/hybris/config/local.properties.template
 # local.properties intentionally NOT tracked (contains credentials)
 
 # Build output
