@@ -1,0 +1,36 @@
+# Whitelist approach: ignore everything (SAP platform binaries, installer, licenses, data, logs)
+/*
+!/.gitignore
+!/hybris/
+/hybris/*
+!/hybris/bin/
+/hybris/bin/*
+!/hybris/bin/custom/
+!/hybris/config/
+/hybris/config/*
+!/hybris/config/localextensions.xml
+# local.properties intentionally NOT tracked (contains credentials)
+
+# Build output
+classes/
+testclasses/
+eclipsebin/
+gensrc/
+node_modules/
+*.class
+
+# Addon files copied into the storefront at build time (ant addoninstall / build)
+/hybris/bin/custom/*/web/addonsrc/
+/hybris/bin/custom/*/web/addontestsrc/
+/hybris/bin/custom/*/web/commonwebsrc/
+/hybris/bin/custom/*/web/webroot/_ui/addons/
+/hybris/bin/custom/*/web/webroot/WEB-INF/_ui-src/addons/
+/hybris/bin/custom/*/web/webroot/WEB-INF/messages/addons/
+/hybris/bin/custom/*/web/webroot/WEB-INF/tags/addons/
+/hybris/bin/custom/*/web/webroot/WEB-INF/tld/addons/
+/hybris/bin/custom/*/web/webroot/WEB-INF/views/addons/
+
+# OS / IDE
+.DS_Store
+.idea/
+*.iml

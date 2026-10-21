@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
+  <extension name="ucpwellknown" usemaven="false">
+    <webmodule jspcompile="false" webroot="/.well-known"/>
+  </extension>
+</extensioninfo>

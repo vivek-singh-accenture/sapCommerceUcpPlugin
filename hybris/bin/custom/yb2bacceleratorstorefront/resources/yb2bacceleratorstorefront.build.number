@@ -1,0 +1,11 @@
+#Ant properties
+#Tue Jul 07 20:10:39 CEST 2026
+builddate=20260707 2009
+description=yb2bacceleratorstorefront
+group.id=de.hybris.platform
+module.name=platform-module
+name=yb2bacceleratorstorefront
+releasedate=20220601 2009
+vendor=hybris
+version=2205.52
+version.api=2205
